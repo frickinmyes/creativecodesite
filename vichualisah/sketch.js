@@ -133,11 +133,11 @@ class Walker {
     let stopWalking;
 
     ///// otional stop if you dont hear it//////
-    if (amp < 5) {
-      this.stopWalking = true;
-    } else {
-      this.stopWalking = false;
-    }
+    // if (amp < 5) {
+    //   this.stopWalking = true;
+    // } else {
+    //   this.stopWalking = false;
+    // }
 
     if (this.stopWalking === false) {
       let direction = map(amp, 1, 255, 1, 6); // control "speed" with dramatic range
